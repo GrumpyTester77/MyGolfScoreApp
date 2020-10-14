@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyGolfScoreApp", "MyGolfScoreApp.csproj", "{6747A4F8-AFCE-4D86-8510-27001BA16283}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyGolfScoreApp", "MyGolfScoreApp.csproj", "{584E9EA8-FC3B-49DB-BF55-FB0ED63D2EF9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{6747A4F8-AFCE-4D86-8510-27001BA16283}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6747A4F8-AFCE-4D86-8510-27001BA16283}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6747A4F8-AFCE-4D86-8510-27001BA16283}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6747A4F8-AFCE-4D86-8510-27001BA16283}.Release|Any CPU.Build.0 = Release|Any CPU
+		{584E9EA8-FC3B-49DB-BF55-FB0ED63D2EF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{584E9EA8-FC3B-49DB-BF55-FB0ED63D2EF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{584E9EA8-FC3B-49DB-BF55-FB0ED63D2EF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{584E9EA8-FC3B-49DB-BF55-FB0ED63D2EF9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {AD3BC701-02FD-4CFE-811B-22EC00EDD098}
+		SolutionGuid = {09DA5E32-656F-41AF-BBF5-18036DD03795}
 	EndGlobalSection
 EndGlobal
