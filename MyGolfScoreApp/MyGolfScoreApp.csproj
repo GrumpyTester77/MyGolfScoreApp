@@ -127,17 +127,42 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\CourseViewModelsController.cs" />
+    <Compile Include="Controllers\HoleViewModelsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\RoundViewModelsController.cs" />
+    <Compile Include="Data\MyGolfScoreAppContext.cs" />
     <Compile Include="Data\MyGolfScoreAppDb.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202010141438284_InitialDatabaseCreation.cs" />
-    <Compile Include="Migrations\202010141438284_InitialDatabaseCreation.designer.cs">
-      <DependentUpon>202010141438284_InitialDatabaseCreation.cs</DependentUpon>
+    <Compile Include="Migrations\202010150859523_InitialCreation.cs" />
+    <Compile Include="Migrations\202010150859523_InitialCreation.designer.cs">
+      <DependentUpon>202010150859523_InitialCreation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202010151006520_DatabaseAmendment.cs" />
+    <Compile Include="Migrations\202010151006520_DatabaseAmendment.designer.cs">
+      <DependentUpon>202010151006520_DatabaseAmendment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202010151016048_DatabaseAmendment1.cs" />
+    <Compile Include="Migrations\202010151016048_DatabaseAmendment1.designer.cs">
+      <DependentUpon>202010151016048_DatabaseAmendment1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202010151031434_DatabaseAmendment2.cs" />
+    <Compile Include="Migrations\202010151031434_DatabaseAmendment2.designer.cs">
+      <DependentUpon>202010151031434_DatabaseAmendment2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202010151229062_DatabaseAmendmentRemoveCourseIDFromHole.cs" />
+    <Compile Include="Migrations\202010151229062_DatabaseAmendmentRemoveCourseIDFromHole.designer.cs">
+      <DependentUpon>202010151229062_DatabaseAmendmentRemoveCourseIDFromHole.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202010151234408_DatabaseAmendmentAddCourseIDFromHole.cs" />
+    <Compile Include="Migrations\202010151234408_DatabaseAmendmentAddCourseIDFromHole.designer.cs">
+      <DependentUpon>202010151234408_DatabaseAmendmentAddCourseIDFromHole.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\CourseViewModel.cs" />
+    <Compile Include="Models\HoleViewModel.cs" />
     <Compile Include="Models\RoundViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -174,9 +199,22 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\About.cshtml" />
-    <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\RoundViewModels\Create.cshtml" />
+    <Content Include="Views\RoundViewModels\Delete.cshtml" />
+    <Content Include="Views\RoundViewModels\Details.cshtml" />
+    <Content Include="Views\RoundViewModels\Edit.cshtml" />
+    <Content Include="Views\RoundViewModels\Index.cshtml" />
+    <Content Include="Views\CourseViewModels\Create.cshtml" />
+    <Content Include="Views\CourseViewModels\Delete.cshtml" />
+    <Content Include="Views\CourseViewModels\Details.cshtml" />
+    <Content Include="Views\CourseViewModels\Edit.cshtml" />
+    <Content Include="Views\CourseViewModels\Index.cshtml" />
+    <Content Include="Views\HoleViewModels\Create.cshtml" />
+    <Content Include="Views\HoleViewModels\Delete.cshtml" />
+    <Content Include="Views\HoleViewModels\Details.cshtml" />
+    <Content Include="Views\HoleViewModels\Edit.cshtml" />
+    <Content Include="Views\HoleViewModels\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -195,8 +233,23 @@
     <Content Include="Scripts\jquery-3.4.1.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202010141438284_InitialDatabaseCreation.resx">
-      <DependentUpon>202010141438284_InitialDatabaseCreation.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202010150859523_InitialCreation.resx">
+      <DependentUpon>202010150859523_InitialCreation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202010151006520_DatabaseAmendment.resx">
+      <DependentUpon>202010151006520_DatabaseAmendment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202010151016048_DatabaseAmendment1.resx">
+      <DependentUpon>202010151016048_DatabaseAmendment1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202010151031434_DatabaseAmendment2.resx">
+      <DependentUpon>202010151031434_DatabaseAmendment2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202010151229062_DatabaseAmendmentRemoveCourseIDFromHole.resx">
+      <DependentUpon>202010151229062_DatabaseAmendmentRemoveCourseIDFromHole.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202010151234408_DatabaseAmendmentAddCourseIDFromHole.resx">
+      <DependentUpon>202010151234408_DatabaseAmendmentAddCourseIDFromHole.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

@@ -13,14 +13,14 @@ namespace MyGolfScoreApp.Controllers
             return View();
         }
 
-        public ActionResult About()
+        public ActionResult Round()
         {
             ViewBag.Message = "Your application description page.";
 
             return View();
         }
 
-        public ActionResult Contact()
+        public ActionResult Course()
         {
             ViewBag.Message = "Your contact page.";
 

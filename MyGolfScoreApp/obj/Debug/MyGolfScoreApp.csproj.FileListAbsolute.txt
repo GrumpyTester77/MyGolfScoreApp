@@ -76,10 +76,15 @@ C:\Users\paul_\Programming Learning\CSharpePrograms\CSharpeProgram\MyGolfScoreAp
 C:\Users\paul_\Programming Learning\CSharpePrograms\CSharpeProgram\MyGolfScoreApp\MyGolfScoreApp\bin\Newtonsoft.Json.xml
 C:\Users\paul_\Programming Learning\CSharpePrograms\CSharpeProgram\MyGolfScoreApp\MyGolfScoreApp\bin\Antlr3.Runtime.pdb
 C:\Users\paul_\Programming Learning\CSharpePrograms\CSharpeProgram\MyGolfScoreApp\MyGolfScoreApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\paul_\Programming Learning\CSharpePrograms\CSharpeProgram\MyGolfScoreApp\MyGolfScoreApp\obj\Debug\MyGolfScoreApp.csprojAssemblyReference.cache
 C:\Users\paul_\Programming Learning\CSharpePrograms\CSharpeProgram\MyGolfScoreApp\MyGolfScoreApp\obj\Debug\MyGolfScoreApp.csproj.CoreCompileInputs.cache
 C:\Users\paul_\Programming Learning\CSharpePrograms\CSharpeProgram\MyGolfScoreApp\MyGolfScoreApp\obj\Debug\MyGolfScoreApp.csproj.CopyComplete
 C:\Users\paul_\Programming Learning\CSharpePrograms\CSharpeProgram\MyGolfScoreApp\MyGolfScoreApp\obj\Debug\MyGolfScoreApp.dll
 C:\Users\paul_\Programming Learning\CSharpePrograms\CSharpeProgram\MyGolfScoreApp\MyGolfScoreApp\obj\Debug\MyGolfScoreApp.pdb
-C:\Users\paul_\Programming Learning\CSharpePrograms\CSharpeProgram\MyGolfScoreApp\MyGolfScoreApp\obj\Debug\MyGolfScoreApp.Migrations.InitialDatabaseCreation.resources
+C:\Users\paul_\Programming Learning\CSharpePrograms\CSharpeProgram\MyGolfScoreApp\MyGolfScoreApp\obj\Debug\MyGolfScoreApp.Migrations.InitialCreation.resources
 C:\Users\paul_\Programming Learning\CSharpePrograms\CSharpeProgram\MyGolfScoreApp\MyGolfScoreApp\obj\Debug\MyGolfScoreApp.csproj.GenerateResource.cache
+C:\Users\paul_\Programming Learning\CSharpePrograms\CSharpeProgram\MyGolfScoreApp\MyGolfScoreApp\obj\Debug\MyGolfScoreApp.Migrations.DatabaseAmendment.resources
+C:\Users\paul_\Programming Learning\CSharpePrograms\CSharpeProgram\MyGolfScoreApp\MyGolfScoreApp\obj\Debug\MyGolfScoreApp.Migrations.DatabaseAmendment1.resources
+C:\Users\paul_\Programming Learning\CSharpePrograms\CSharpeProgram\MyGolfScoreApp\MyGolfScoreApp\obj\Debug\MyGolfScoreApp.Migrations.DatabaseAmendment2.resources
+C:\Users\paul_\Programming Learning\CSharpePrograms\CSharpeProgram\MyGolfScoreApp\MyGolfScoreApp\obj\Debug\MyGolfScoreApp.Migrations.DatabaseAmendmentRemoveCourseIDFromHole.resources
+C:\Users\paul_\Programming Learning\CSharpePrograms\CSharpeProgram\MyGolfScoreApp\MyGolfScoreApp\obj\Debug\MyGolfScoreApp.Migrations.DatabaseAmendmentAddCourseIDFromHole.resources
+C:\Users\paul_\Programming Learning\CSharpePrograms\CSharpeProgram\MyGolfScoreApp\MyGolfScoreApp\obj\Debug\MyGolfScoreApp.csprojAssemblyReference.cache

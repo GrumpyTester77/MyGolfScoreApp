@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Web;
 
@@ -13,12 +14,10 @@ namespace MyGolfScoreApp.Models
 
         public string CourseName { get; set; }
 
-        public int HoleNumber { get; set; }
-        public int Par { get; set; }
-        
-        public int Length { get; set; }
+        //[ForeignKey("Hole")]
+        //public int HoleId { get; set; }
+        //public virtual HoleViewModel Hole { get; set; }
 
-        public int StrokeIndex { get; set; }
-    
+
     }
 }
